@@ -30,9 +30,9 @@ var initRequest func(*request.Request)
 
 // Service information constants
 const (
-	ServiceName = "vefaas"    // Name of service.
-	EndpointsID = ServiceName // ID to lookup a service endpoint with.
-	ServiceID   = "vefaas"    // ServiceID is a unique identifer of a specific service.
+	ServiceName = "vefaas_dev" // Name of service.
+	EndpointsID = ServiceName  // ID to lookup a service endpoint with.
+	ServiceID   = "vefaas_dev" // ServiceID is a unique identifer of a specific service.
 )
 
 // New create int can support ssl or region locate set
